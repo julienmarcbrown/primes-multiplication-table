@@ -13,4 +13,7 @@ class MultiplicationTable
       puts
     end
   end
+  def say_hello
+    puts "hello"
+  end
 end

@@ -1,3 +1,4 @@
+
 require 'spec_helper'
 
 describe MultiplicationTable do
@@ -5,7 +6,7 @@ describe MultiplicationTable do
 
     primes = [2,3,5,7,11,13,17,19,23,29]
     expected_output = [
-        [ 1,  2,  3,   5,   7,  11,  13,  17,  19,  23,  29],
+        [   2,  3,   5,   7,  11,  13,  17,  19,  23,  29],
         [ 2,  4,  6,  10,  14,  22,  26,  34,  38,  46,  58],
         [ 3,  6,  9,  15,  21,  33,  39,  51,  57,  69,  87],
         [ 5, 10, 15,  25,  35,  55,  65,  85,  95, 115, 145],
