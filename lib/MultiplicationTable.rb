@@ -1,4 +1,9 @@
 class MultiplicationTable
+
+  def initialize
+   @nums    = [2,3,5,7,11,13,17,19,23,29]
+  end
+
   def populate_table(nums)
     print '     '
     nums.each {|i| print '%-3d  ' % i}
@@ -13,7 +18,7 @@ class MultiplicationTable
       puts
     end
   end
-  def say_hello
-    puts "hello"
-  end
+
+
+
 end
